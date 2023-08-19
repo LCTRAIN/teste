@@ -13,31 +13,31 @@
 
 ## REQUISITOS FUNCIONAIS <h2>
 
-* rf 01
+###rf 01
 O sistema deverá ter uma interface de cadastro para usuários.
 
-* rf 02
+###rf 02
 O sistema deverá ter uma interface de login
 
-* rf 03
+###rf 03
 o sistema deverá ter uma interface de agendamento de serviços e um calendário interativo
 
-* rf 04
+###rf 04
 o sistema deverá ter uma interface da página principal
 
-* rf 05
+###rf 05
 O sistema deverá ter uma interface de edição do perfil
 
-* rf 06
+###rf 06
 o sistema deverá ter uma gestão de horários 
 
-* rf 07
+###rf 07
 o sistema deverá ter a opção de cancelar ou reagendar
 
-* rf 08
+###rf 08
 o sistema deverá ter a opção de avaliar e comentar
 
-* rf 09
+###rf 09
 o sistema deverá ter dashboard para administradores (o que terá nele)
 
 ## REQUISITOS não FUNCIONAIS <h2>
