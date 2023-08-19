@@ -13,10 +13,10 @@
 
 ##REQUISITOS FUNCIONAIS <h2>
 
-*rf 01
+* rf 01
 O sistema deverá ter uma interface de cadastro para usuários.
 
-*rf 02
+* rf 02
 O sistema deverá ter uma interface de login
 
 *rf 03
