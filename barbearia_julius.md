@@ -51,7 +51,7 @@ o sistema deverá ser disponibilizado em português
 ### rnf 03
 o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 
-### cdu 01 - cadastro de usuários <h1>
+# cdu 01 - cadastro de usuários <h1>
 
 ### Fluxo principal
 
