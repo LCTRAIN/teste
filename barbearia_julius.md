@@ -1,9 +1,9 @@
-#**SiSTEMA DE AGENDAMENTO** <h1>
-##BARBEARIA JULIUS <h2>
-*Ana Caroline de Oliveira
-*Antônio Reuther Fructuoso Damasceno 
-*Lucas de Souza Santana
-*Lucas Melo Moura 
+# **SiSTEMA DE AGENDAMENTO** <h1>
+## BARBEARIA JULIUS <h2>
+* Ana Caroline de Oliveira
+* Antônio Reuther Fructuoso Damasceno 
+* Lucas de Souza Santana
+* Lucas Melo Moura 
 
 *NICKNAME DO GITHUB
 *ANA -https://github.com/anacasroline
