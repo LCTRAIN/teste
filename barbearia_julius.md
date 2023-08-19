@@ -42,16 +42,16 @@ o sistema deverá ter dashboard para administradores (o que terá nele)
 
 ## REQUISITOS não FUNCIONAIS <h2>
 
-* rnf 01
+### rnf 01
 o sistema deverá se comunicar com o banco de dados MYSQL
 
-* rnf 02
+### rnf 02
 o sistema deverá ser disponibilizado em português
 
-* rnf 03
+### rnf 03
 o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 
-# cdu 01 - cadastro de usuários <h1>
+### cdu 01 - cadastro de usuários <h1>
 
 ### Fluxo principal
 
