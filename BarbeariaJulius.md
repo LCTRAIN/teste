@@ -7,6 +7,7 @@
 
 
 *NICKNAME DO GITHUB*
+
 ANA -https://github.com/anacasroline
 ANTONIO -https://github.com/Damascenopog
 LUCAS DE SOUZA -https://github.com/LCTRAIN
@@ -17,62 +18,62 @@ LUCAS DE SOUZA -https://github.com/LCTRAIN
 ## REQUISITOS FUNCIONAIS <h2>
 
 
-* rf 01
+*rf 01
 O sistema deverá ter uma interface de cadastro para usuários.
 
 
-* rf 02
+*rf 02
 O sistema deverá ter uma interface de login
 
 
-* rf 03
+*rf 03
 o sistema deverá ter uma interface de agendamento de serviços e um calendário interativo
 
 
-* rf 04
+*rf 04
 o sistema deverá ter uma interface da página principal
 
 
-* rf 05
+*rf 05
 O sistema deverá ter uma interface de edição do perfil
 
 
-* rf 06
+*rf 06
 o sistema deverá ter uma gestão de horários 
 
 
-* rf 07
+*rf 07
 o sistema deverá ter a opção de cancelar ou reagendar
 
 
-* rf 08
+*rf 08
 o sistema deverá ter a opção de avaliar e comentar
 
 
-* rf 09
+*rf 09
 o sistema deverá ter dashboard para administradores (o que terá nele)
 
 
  ## REQUISITOS não FUNCIONAIS <h2>
 
 
-* rnf 01
+*rnf 01
 o sistema deverá se comunicar com o banco de dados MYSQL
 
 
-* rnf 02
+*rnf 02
 o sistema deverá ser disponibilizado em português
 
 
-* rnf 03
+*rnf 03
 o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 
 
-# cdu 01 - cadastro de usuários <h1>
+#cdu 01 - cadastro de usuários <h1>
 
 
-### Fluxo principal
-1.O sistema apresenta formulário de cadastro
+###Fluxo principal
+1. O sistema apresenta formulário de cadastro
 2. O usuário preenche o campo nome, número de celular,  login, senha, confirmação de senha.
 3. O usuário pressiona o botão "Cadastrar"
 4. O sistema valida o login e senha
@@ -88,7 +89,7 @@ o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 4. O sistema informa que já possui uma conta vinculada com esse login
 
 
-# CDU 1.5 - Login/Cadastro Social
+#CDU 1.5 - Login/Cadastro Social
 ###Fluxo Principal - Entrar com SSO
 1. O sistema apresenta o formulário de login
 2. O usuário pressiona alguma opção de SSO
@@ -109,7 +110,7 @@ o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 7. O sistema redireciona o usuário para a página principal
 
 
-# CDU 02 - Login <h1>
+#CDU 02 - Login <h1>
 ### Fluxo principal
 1. O sistema apresenta formulário de login
 2. O usuário preenche o campo usuário e senha
@@ -118,7 +119,7 @@ o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 5. O sistema redireciona o usuário para a página principal
 
 
-### Fluxo alternativo a
+###Fluxo alternativo a
 1. O sistema apresenta formulário de login
 2. O usuário preenche o campo usuário e senha
 3. O usuário pressiona o botão "Logar"
@@ -146,22 +147,21 @@ o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 8. O usuário redireciona o usuário para a página principal
 
 
-# cdu 03 -  CALENDÁRIO INTERATIVO<h1>
+#cdu 03 -  CALENDÁRIO INTERATIVO<h1>
 ### Fluxo principal - calendário interativo.
 1. O usuário clica na opção "Calendário" para acessar o calendário interativo.
 2. Um pop-up ou modal será exibido, permitindo que o usuário selecione o mês e o dia desejados.
 3. O usuário clica no número do dia e do mês no calendário.
 
 
-# cdu 04- agendamento de serviço<h1>
+#cdu 04- agendamento de serviço<h1>
 ### fluxo principal - agendamento de serviço.
 1. o usuário clica em uma coluna escrito "serviços".
 2. o sistema exibirá os serviços disponíveis.
 3. o usuário clicará no serviço que desejar.
 
 
-# cdu 05 - gestão de horários <h1>*****
-
+#cdu 05 - gestão de horários <h1>
 
 ### Fluxo principal
 1. O usuário clica na opção para acessar a seleção de profissionais.
@@ -174,7 +174,7 @@ o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 8. O usuário clica no botão "confirmar"
 
 
-### fluxo alternativo a
+###fluxo alternativo a
 1. O usuário clica na opção para acessar a seleção de profissionais.
 2. O sistema lista os profissionais disponíveis.
 3. O usuário seleciona o profissional com o qual  deseja agendar um horário.
@@ -188,7 +188,7 @@ o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 11. O usuário clica no botão "confirmar".
 
 
-# cdu 06 -  acesso ao perfil criado <h1>
+#cdu 06 -  acesso ao perfil criado <h1>
 ### Fluxo principal
 1. Ao clicar na opção "perfil" da página principal o usuário é redirecionado para uma interface da página do cliente.
 2. Na página do cliente estarão as informações concedidas pelo usuário.
@@ -197,14 +197,15 @@ o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 5. Ao clicar em sair, você é redirecionado para a interface de login do sistema.
 
 
-### fluxo alternativo a
+###fluxo alternativo a
 1.  Além das opções "mudar a senha" e "sair", o acesso ao perfil também terá a opção "Histórico de agendamento".
 2. Ao clicar na opção "histórico de agendamento" os serviços agendados, datas e horários, serão impressos na tela para que os clientes possam acompanhar suas visitas anteriores.
 3. Para sair da exibição, o usuário só precisa voltar.
 
 
-# cdu 07 - cancelamento e reagendamento <h1>
-### Fluxo principal -Cancelamento
+#cdu 07 - cancelamento e reagendamento <h1>
+
+###Fluxo principal -Cancelamento
 1. O cliente acessa o sistema usando suas credenciais de login. 
 2. O cliente é direcionado para o painel onde seus agendamentos são exibidos. 
 3. O cliente localiza o agendamento que deseja cancelar. 
@@ -214,7 +215,7 @@ o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 7. O sistema remove o agendamento e envia uma notificação confirmando o cancelamento.
 
 
-### fluxo principal -reagendamento
+###fluxo principal -Reagendamento
 1. O cliente acessa o sistema usando suas credenciais de login. 
 2. O cliente é direcionado para o painel onde seus agendamentos são exibidos. 
 3. O cliente localiza o agendamento que deseja reagendar. 
@@ -224,8 +225,8 @@ o sistema deverá ser desenvolvido nas linguagens: html, css e javascript
 7. O sistema atualiza o agendamento e envia uma notificação com os detalhes do novo horário.
 
 
-# cdu 08 - avaliações e comentários <h1>
-### Fluxo principal
+#cdu 08 - avaliações e comentários <h1>
+###Fluxo principal
 1. O cliente acessa o sistema usando suas credenciais de login.
 2. O cliente é direcionado para o painel onde seus agendamentos passados são exibidos.
 3. O cliente localiza o agendamento que deseja avaliar.
@@ -241,12 +242,11 @@ Comentários:
 12. O cliente confirma a submissão do seu comentário, e ele é registrado no sistema.
 
 
-### fluxo alternativo a
+###fluxo alternativo a
 1. Dependendo da política da barbearia, os comentários podem passar por uma moderação antes de serem publicados.
 
-
-# cdu 09 - dashboard para administradores <h1>
-### Fluxo principal
+#cdu 09 - dashboard para administradores <h1>
+###Fluxo principal
 1. O usuário acessa a página de login
 2. O usuário pressiona o botão "Logar"
 3. O sistema valida o login e senha e verifica que há permissão de administrador
@@ -268,11 +268,11 @@ ENTREGAR A INTERFACE DE CADASTRO
 ENTREGAR A INTERFACE DE LOGIN 
 
 
-banca: 16/10 - 18/10
+*banca: 16/10 - 18/10
 ENTREGAR A INTERFACE DE AGENDAMENTOS DE SERVIÇO E UM CALENDÁRIO INTERATIVO 
 
 
-2ª cert: 02/10 - 14/10
+*2ª cert: 02/10 - 14/10
 ENTREGAR A INTERFACE DO ACESSO AO PERFIL 
 
 
